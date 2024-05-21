@@ -24,6 +24,7 @@
 
 Admin Panell:
 ____________________
+url panel admin: https://example.com/admin
 username: admin
 password: admin
 ____________________
