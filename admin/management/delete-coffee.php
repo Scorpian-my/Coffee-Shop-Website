@@ -1,7 +1,7 @@
 <?php
 
 $connection = mysqli_connect("localhost", "root", "", "coffee");
-$query = mysqli_query($connection, "SELECT * FROM `users`");
+$query = mysqli_query($connection, "SELECT * FROM `coffees`");
 
 
 ?>
@@ -44,15 +44,14 @@ $query = mysqli_query($connection, "SELECT * FROM `users`");
 <body bgcolor="gray">
     <center>
         <ol>
+
             <?php
-            while ($user = mysqli_fetch_array($query)) {
-                $words = explode(",", $user["coffees"]);
-                echo "<li class='test'>نام کاربر '" . '<span class="span">' . $user["name"] . '</span>' . "'<br>";
-                echo "سفارش های انتخاب شده ";
-                foreach ($words as $word) {
-                    $coffe = trim($word);
-                    echo "<span class='span'>" . $coffe . "<hr><br>";
-                }
+            while ($coffee = mysqli_fetch_array($query)) {
+
+                echo "<li class='test'>نام محصول '" . '<span class="span">' . $coffee["name"] . '</span>' . "'<br>";
+                echo "<form action='./management/del.php' method='post'>";
+                echo "توضیحات <br>" . "<span class='span'>" . $coffee["description"] . "<hr><br><input type='submit' name='coffee' value='حذف " . $coffee["name"] . "'><br><br>";
+                echo "</form>";
                 echo "</li><br><hr color='red'><br>";
             }
             ?>

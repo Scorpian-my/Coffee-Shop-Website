@@ -1,0 +1,77 @@
+<!DOCTYPE html
+    PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="fa" dir="rtl">
+
+<head>
+    <style>
+        #table,
+        #th,
+        #td {
+            background: #a39a9d;
+            border: 2px solid brown;
+            margin: 25px auto;
+            font-family: b nazanin;
+            font-size: 20px;
+        }
+
+        #table,
+        #th,
+        #td {
+            direction: rtl;
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+
+        #th,
+        #td {
+            padding: 15px;
+
+        }
+
+        #caption {
+            margin-bottom: 15px;
+            color: #c82c74;
+        }
+    </style>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+    <head>
+
+        <form method="post" action="./management/insert.php" enctype="multipart/form-data">
+            <table id="table" width="800" align="center">
+
+                <caption id="caption"><b>اطلاعات مربوط به محصول را در این جدول اضافه کنید</b></caption>
+
+                <tr id="tr">
+                    <th id="th"><b>ویژگی های محصول</b></th>
+                    <th id="th"><b>مقدار ورودی برای هر کدام از ویژگی ها</b></th>
+                </tr>
+                <tr id="tr">
+                    <td id="td"><b>عکس محصول</b></td>
+                    <td id="td"><input type="file" name="image" required></td>
+                </tr>
+                <tr id="tr">
+                    <td id="td"><b>نام محصول</b></td>
+                    <td id="td"><input type="text" name="name" size="20" required></td>
+                </tr>
+
+                <tr id="tr">
+                    <td id="td"><b>توصیف محصول</b></td>
+                    <td id="td">
+                        <textarea name="description" required></textarea>
+                    </td>
+                </tr>
+                <tr id="tr">
+                    <td id="td"><b>قیمت محصول</b></td>
+                    <td id="td"><input type="text" name="price" size="20" required></td>
+                </tr>
+                <tr id="tr">
+                    <td align="center"><input type="submit" name="submit" value="بارگذاری"></td>
+                    <td align="center"><input type="reset" name="reset" value="ریست کردن"></td>
+                </tr>
+
+            </table>
+        </form>
+
+
+</html>
