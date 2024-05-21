@@ -1,0 +1,202 @@
+/* Pelak Font */
+/*@font-face {*/
+/*	font-family: pelak;*/
+/*	font-style: normal;*/
+/*	font-weight: 100;*/
+/*	src: url('../fonts/Pelak/eot/Pelak-Thin.eot');*/
+/*	src: url('../fonts/Pelak/eot/Pelak-Thin.eot?#iefix') format('embedded-opentype'),*/
+/*		 url('../fonts/Pelak/woff2/Pelak-Thin.woff2') format('woff2'),*/
+/*		 url('../fonts/Pelak/woff/Pelak-Thin.woff') format('woff'),*/
+/*		 url('../fonts/Pelak/otf/Pelak-Thin.otf') format('opentype');*/
+/*}*/
+/*@font-face {*/
+/*	font-family: pelak;*/
+/*	font-style: normal;*/
+/*	font-weight: 200;*/
+/*	src: url('../fonts/Pelak/eot/Pelak-Light.eot');*/
+/*	src: url('../fonts/Pelak/eot/Pelak-Light.eot?#iefix') format('embedded-opentype'),*/
+/*		 url('../fonts/Pelak/woff2/Pelak-Light.woff2') format('woff2'),*/
+/*		 url('../fonts/Pelak/woff/Pelak-Light.woff') format('woff'),*/
+/*		 url('../fonts/Pelak/otf/Pelak-Light.otf') format('opentype');*/
+/*}*/
+/*@font-face {*/
+/*	font-family: pelak;*/
+/*	font-style: normal;*/
+/*	font-weight: 300;*/
+/*	src: url('../fonts/Pelak/eot/Pelak-Regular.eot');*/
+/*	src: url('../fonts/Pelak/eot/Pelak-Regular.eot?#iefix') format('embedded-opentype'),*/
+/*		 url('../fonts/Pelak/woff2/Pelak-Regular.woff2') format('woff2'),*/
+/*		 url('../fonts/Pelak/woff/Pelak-Regular.woff') format('woff'),*/
+/*		 url('../fonts/Pelak/otf/Pelak-Regular.otf') format('opentype');*/
+/*}*/
+/*@font-face {*/
+/*	font-family: pelak;*/
+/*	font-style: normal;*/
+/*	font-weight: 400;*/
+/*	src: url('../fonts/Pelak/eot/Pelak-Medium.eot');*/
+/*	src: url('../fonts/Pelak/eot/Pelak-Medium.eot?#iefix') format('embedded-opentype'),*/
+/*		 url('../fonts/Pelak/woff2/Pelak-Medium.woff2') format('woff2'),*/
+/*		 url('../fonts/Pelak/woff/Pelak-Medium.woff') format('woff'),*/
+/*		 url('../fonts/Pelak/otf/Pelak-Medium.otf') format('opentype');*/
+/*}*/
+/*@font-face {*/
+/*	font-family: pelak;*/
+/*	font-style: normal;*/
+/*	font-weight: 500;*/
+/*	src: url('../fonts/Pelak/eot/Pelak-SemiBold.eot');*/
+/*	src: url('../fonts/Pelak/eot/Pelak-SemiBold.eot?#iefix') format('embedded-opentype'),*/
+/*		 url('../fonts/Pelak/Pelak-SemiBold.woff2') format('woff2'),*/
+/*		 url('../fonts/Pelak/woff/Pelak-SemiBold.woff') format('woff'),*/
+/*		 url('../fonts/Pelak/otf/Pelak-SemiBold.otf') format('opentype');*/
+/*}*/
+/*@font-face {*/
+/*	font-family: pelak;*/
+/*	font-style: normal;*/
+/*	font-weight: 600;*/
+/*	src: url('../fonts/Pelak/eot/Pelak-Bold.eot');*/
+/*	src: url('../fonts/Pelak/eot/Pelak-Bold.eot?#iefix') format('embedded-opentype'),*/
+/*		 url('../fonts/Pelak/woff2/Pelak-Bold.woff2') format('woff2'),*/
+/*		 url('../fonts/Pelak/woff/Pelak-Bold.woff') format('woff'),*/
+/*		 url('../fonts/Pelak/otf/Pelak-Bold.otf') format('opentype');*/
+/*}*/
+/*@font-face {*/
+/*	font-family: pelak;*/
+/*	font-style: normal;*/
+/*	font-weight: 800;*/
+/*	src: url('../fonts/Pelak/eot/Pelak-ExtraBold.eot');*/
+/*	src: url('../fonts/Pelak/eot/Pelak-ExtraBold.eot?#iefix') format('embedded-opentype'),*/
+/*		 url('../fonts/Pelak/Pelak-ExtraBold.woff2') format('woff2'),*/
+/*		 url('../fonts/Pelak/woff/Pelak-ExtraBold.woff') format('woff'),*/
+/*		 url('../fonts/Pelak/otf/Pelak-ExtraBold.otf') format('opentype');*/
+/*}*/
+/*@font-face {*/
+/*	font-family: pelak;*/
+/*	font-style: normal;*/
+/*	font-weight: 900;*/
+/*	src: url('../fonts/Pelak/eot/Pelak-Black.eot');*/
+/*	src: url('../fonts/Pelak/eot/Pelak-Black.eot?#iefix') format('embedded-opentype'),*/
+/*		 url('../fonts/Pelak/woff2/Pelak-Black.woff2') format('woff2'),*/
+/*		 url('../fonts/Pelak/woff/Pelak-Black.woff') format('woff'),*/
+/*		 url('../fonts/Pelak/otf/Pelak-Black.otf') format('opentype');*/
+/*}*/
+
+/* Iran Yekan Font */
+/*@font-face {*/
+/*	font-family: iranyekan;*/
+/*	font-style: normal;*/
+/*	font-weight: 100;*/
+/*	src: url('../fonts/IRANYekan/eot/iranyekanwebthinfanum.eot');*/
+/*	src: url('../fonts/IRANYekan/eot/iranyekanwebthinfanum.eot?#iefix') format('embedded-opentype'),*/
+/*		 url('../fonts/IRANYekan/woff/iranyekanwebthinfanum.woff') format('woff'),*/
+/*		 url('../fonts/IRANYekan/ttf/iranyekanwebthinfanum.ttf') format('truetype');*/
+/*}*/
+/*@font-face {*/
+/*	font-family: iranyekan;*/
+/*	font-style: normal;*/
+/*	font-weight: 200;*/
+/*	src: url('../fonts/IRANYekan/eot/iranyekanweblightfanum.eot');*/
+/*	src: url('../fonts/IRANYekan/eot/iranyekanweblightfanum.eot?#iefix') format('embedded-opentype'),*/
+/*		 url('../fonts/IRANYekan/woff/iranyekanweblightfanum.woff') format('woff'),*/
+/*		 url('../fonts/IRANYekan/ttf/iranyekanweblightfanum.ttf') format('truetype');*/
+/*}*/
+@font-face {
+    font-family: iranyekan;
+    font-style: normal;
+    font-weight: 300;
+    /*src: url('../fonts/IRANYekan/eot/iranyekanwebregularfanum.eot');*/
+    /*src: url('../fonts/IRANYekan/eot/iranyekanwebregularfanum.eot?#iefix') format('embedded-opentype'),*/
+    url('https://hamyarmenu.ir/static/fonts/IRANYekan/iranyekanwebregularfanum.woff') format('woff'),
+    /*url('../fonts/IRANYekan/ttf/iranyekanwebregularfanum.ttf') format('truetype');*/
+}
+
+/*@font-face {*/
+/*	font-family: iranyekan;*/
+/*	font-style: normal;*/
+/*	font-weight: 400;*/
+/*	src: url('../fonts/IRANYekan/eot/iranyekanwebmediumfanum.eot');*/
+/*	src: url('../fonts/IRANYekan/eot/iranyekanwebmediumfanum.eot?#iefix') format('embedded-opentype'),*/
+/*		 url('../fonts/IRANYekan/iranyekanwebmediumfanum.woff') format('woff'),*/
+/*		 url('../fonts/IRANYekan/ttf/iranyekanwebmediumfanum.ttf') format('truetype');*/
+/*}*/
+/*@font-face {*/
+/*	font-family: iranyekan;*/
+/*	font-style: normal;*/
+/*	font-weight: 600;*/
+/*	src: url('../fonts/IRANYekan/eot/iranyekanwebboldfanum.eot');*/
+/*	src: url('../fonts/IRANYekan/eot/iranyekanwebboldfanum.eot?#iefix') format('embedded-opentype'),*/
+/*		 url('../fonts/IRANYekan/woff/iranyekanwebboldfanum.woff') format('woff'),*/
+/*		 url('../fonts/IRANYekan/ttf/iranyekanwebboldfanum.ttf') format('truetype');*/
+/*}*/
+/*@font-face {*/
+/*	font-family: iranyekan;*/
+/*	font-style: normal;*/
+/*	font-weight: 700;*/
+/*	src: url('../fonts/IRANYekan/eot/iranyekanwebextraboldfanum.eot');*/
+/*	src: url('../fonts/IRANYekan/eot/iranyekanwebextraboldfanum.eot?#iefix') format('embedded-opentype'),*/
+/*		 url('../fonts/IRANYekan/iranyekanwebextraboldfanum.woff') format('woff'),*/
+/*		 url('../fonts/IRANYekan/ttf/iranyekanwebextraboldfanum.ttf') format('truetype');*/
+/*}*/
+/*@font-face {*/
+/*	font-family: iranyekan;*/
+/*	font-style: normal;*/
+/*	font-weight: 800;*/
+/*	src: url('../fonts/IRANYekan/eot/iranyekanwebblackfanum.eot');*/
+/*	src: url('../fonts/IRANYekan/eot/iranyekanwebblackfanum.eot?#iefix') format('embedded-opentype'),*/
+/*		 url('../fonts/IRANYekan/woff/iranyekanwebblackfanum.woff') format('woff'),*/
+/*		 url('../fonts/IRANYekan/ttf/iranyekanwebblackfanum.ttf') format('truetype');*/
+/*}*/
+/*@font-face {*/
+/*	font-family: iranyekan;*/
+/*	font-style: normal;*/
+/*	font-weight: 900;*/
+/*	src: url('../fonts/IRANYekan/eot/iranyekanwebextrablackfanum.eot');*/
+/*	src: url('../fonts/IRANYekan/eot/iranyekanwebextrablackfanum.eot?#iefix') format('embedded-opentype'),*/
+/*		 url('../fonts/IRANYekan/woff/iranyekanwebextrablackfanum.woff') format('woff'),*/
+/*		 url('../fonts/IRANYekan/ttf/iranyekanwebextrablackfanum.ttf') format('truetype');*/
+/*}*/
+
+/*@font-face {*/
+/*	font-family: lalezar;*/
+/*	src: url('../fonts/Lalezar/lalezar.otf') format('opentype');*/
+/*}*/
+
+/*@font-face {*/
+/*	font-family: shokoh;*/
+/*	src: url('../fonts/shokoh/shokoh.ttf') format('truetype');*/
+/*}*/
+
+/*@font-face {*/
+/*	font-family: shahgosh;*/
+/*	src: url('../fonts/shahgosh.ttf') format('truetype');*/
+/*}*/
+
+/*@font-face {*/
+/*	font-family: iransansdn;*/
+/*	font-style: normal;*/
+/*	font-weight: 100;*/
+/*	src: url('../fonts/IRANSansDNF/iransansdnweblightfn.eot');*/
+/*	src: url('../fonts/IRANSansDNF/iransansdnweblightfn.eot?#iefix') format('embedded-opentype'),*/
+/*		 url('../fonts/IRANSansDNF/iransansdnweblightfn.woff2') format('woff2'),*/
+/*		 url('../fonts/IRANSansDNF/iransansdnweblightfn.woff') format('woff'),*/
+/*		 url('../fonts/IRANSansDNF/iransansdnweblightfn.ttf') format('truetype');*/
+/*}*/
+/*@font-face {*/
+/*	font-family: iransansdn;*/
+/*	font-style: normal;*/
+/*	font-weight: 300;*/
+/*	src: url('../fonts/IRANSansDNF/iransansdnwebfn.eot');*/
+/*	src: url('../fonts/IRANSansDNF/iransansdnwebfn.eot?#iefix') format('embedded-opentype'),*/
+/*		 url('../fonts/IRANSansDNF/iransansdnwebfn.woff2') format('woff2'),*/
+/*		 url('../fonts/IRANSansDNF/iransansdnwebfn.woff') format('woff'),*/
+/*		 url('../fonts/IRANSansDNF/iransansdnwebfn.ttf') format('truetype');*/
+/*}*/
+/*@font-face {*/
+/*	font-family: iransansdn;*/
+/*	font-style: normal;*/
+/*	font-weight: 600;*/
+/*	src: url('../fonts/IRANSansDNF/iransansdnwebboldfn.eot');*/
+/*	src: url('../fonts/IRANSansDNF/iransansdnwebboldfn.eot?#iefix') format('embedded-opentype'),*/
+/*		 url('../fonts/IRANSansDNF/iransansdnwebboldfn.woff2') format('woff2'),*/
+/*		 url('../fonts/IRANSansDNF/iransansdnwebboldfn.woff') format('woff'),*/
+/*		 url('../fonts/IRANSansDNF/iransansdnwebboldfn.ttf') format('truetype');*/
+/*}*/
