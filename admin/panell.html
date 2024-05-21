@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang='en'>
+
+<head>
+    <meta charset='UTF-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <title>پنل مدیریت</title>
+    <style>
+        body {
+            background-color: #D8CDDE;
+            color: #000;
+            font-family: Tahoma, Geneva, sans-serif;
+            font-size: 12px;
+            margin: 0;
+            padding: 0;
+        }
+
+        a {
+            text-decoration: none;
+            color: blue;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        table {
+            background-color: #eeeeee;
+            width: 80%;
+            margin-bottom: 0;
+            border-bottom: 5px;
+
+        }
+
+        img {
+            border: none;
+        }
+
+
+
+        a:link.menu,
+        a:visited.menu {
+            color: #FF2A84;
+            text-decoration: underline;
+        }
+
+        a:hover.menu,
+        a:active.menu {
+            color: #FFF;
+            text-decoration: none;
+            background: #FF2A84;
+        }
+
+        #navigation {
+            border-bottom: 1px solid #A1A1A1;
+            margin: 1em 0 0;
+            padding: 0.6em 0 0;
+            font-weight: bold;
+        }
+
+        #navigation ul,
+        #navigation ul li {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        #navigation ul {
+            padding: 5px 0 5px;
+            text-align: center;
+        }
+
+        #navigation ul li {
+            display: inline;
+        }
+
+        #navigation ul li a {
+            background: url(img/tableft.gif) no-repeat left top;
+            color: #FFF;
+            text-decoration: none;
+            padding: 5px 0;
+        }
+
+        #navigation ul li span {
+            background: url(img/tabright.gif) no-repeat right top;
+            padding: 5px 7px 5px 3px;
+            margin: 4px 0 4px 4px;
+        }
+
+        #navigation ul li a:hover span {
+            text-decoration: underline;
+            background-position: 100% -75px;
+        }
+
+        #navigation ul li a:hover {
+            background-position: 0 -75px;
+        }
+
+        #navigation #current a {
+            background-position: 0 -150px;
+        }
+
+        #navigation #current a span {
+            background-position: 100% -150px;
+        }
+
+
+        * html #navigation ul li a {
+            padding: 0;
+        }
+    </style>
+</head>
+
+<body>
+
+    <center>
+        <h1>
+            سلام رییس به پنل خوش اومدی
+            <hr>
+        </h1>
+    </center>
+    <script>
+        function loadContent(url) {
+            var xhttp = new XMLHttpRequest();
+            xhttp.onreadystatechange = function () {
+                if (this.readyState == 4 && this.status == 200) {
+                    document.getElementById('content').innerHTML = this.responseText;
+                }
+            };
+            xhttp.open('GET', url, true);
+            xhttp.send();
+        }
+    </script>
+    <center>
+        <table border='0' cellspacing='0' cellpadding='0'>
+            <tbody>
+                <table border='0' cellspacing='0' cellpadding='0'>
+                    <tbody>
+                        </tr>
+                        <tr>
+                            <td colspan='2' style='background-color:#000000'>
+
+                                <div id='navigation'>
+                                    <ul>
+                                        <li><a class='menu' href='./../panel/logout.php'><span>خروج از پنل مدیریت
+                                                </span></a>
+                                        </li>
+                                        <li><a class='menu' href='#'
+                                                onclick='loadContent("management/delete-coffee.php")'><span> حذف محصول
+                                                </span></a></li>
+                                        <li><a class='menu' href='#'
+                                                onclick='loadContent("management/insert.html")'><span>
+                                                    اضافه کردن
+                                                    محصول </span></a></li>
+                                        <li><a class='menu' href='#'
+                                                onclick='loadContent("management/users.php")'><span> مدیریت
+                                                    کاربران</span></a></li>
+                                    </ul>
+                                </div>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </tbody>
+        </table>
+        <div id='content'></div>
+    </center>
+
+</body>
+
+</html>
