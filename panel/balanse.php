@@ -3,8 +3,7 @@
 <?php
 include("./../php/config.php");
 session_start();
-
-$data = mysqli_query($connect, "SELECT * FROM `users` where name='Mahyar'");
+$data = mysqli_query($connect, "SELECT * FROM `users` where name='".$_SESSION["user"]."'");
 
 ?>
 
@@ -104,8 +103,10 @@ $data = mysqli_query($connect, "SELECT * FROM `users` where name='Mahyar'");
         </h1>
     </center>
     <?php
+    
     while ($row = mysqli_fetch_array($data)) {
         $words = explode(",", $row["coffees"]);
+        
         foreach ($words as $word) {
             $data = mysqli_query($connect, "SELECT * FROM `coffees` WHERE `name` = '" . trim($word) . "'");
             if ($data && mysqli_num_rows($data) > 0) {
