@@ -18,6 +18,8 @@
 -  به راحتی در پنل مدیریت میتوانید محصول اضافه کنید و یا محصول حذف کنید و لیست کاربران و سفارشات آن ها را رصد کنید. 
 ## تصاویر
 [![Home](pic/home.jpg)](https://github.com/Scorpian-my)  
+[![panel-user](pic/panel-user.jpg)](https://github.com/Scorpian-my)  
+[![balanse](pic/balanse.jpg)](https://github.com/Scorpian-my)  
 
 ## نصب و راه اندازی
 
